@@ -6,6 +6,7 @@ import { MainHeaderComponent } from './shared/components/main-header/main-header
 import { MainSidebarComponent } from './shared/components/main-sidebar/main-sidebar.component';
 import { MainFooterComponent } from './shared/components/main-footer/main-footer.component';
 import { ContentWrapperComponent } from './shared/components/content-wrapper/content-wrapper.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContentWrapperComponent } from './shared/components/content-wrapper/con
     ContentWrapperComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
